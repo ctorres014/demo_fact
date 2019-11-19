@@ -4,10 +4,9 @@
     "description": "BackEnd con NodeJs",
     "main": "dist/index.js",
     "scripts": {
-        "build-ts": "tsc && npm run copypublic",
-        "postinstall": "npm run build-ts",
-        "start": "npm run serve",
-        "serve": "node dist/index.js",
+        "start": "node build/index.js",
+        "build": "tsc",
+        "postinstall": "npm run build",
         "test": "jest"
     },
     "author": "Claudio Torres",
