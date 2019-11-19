@@ -4,7 +4,7 @@
     "description": "BackEnd con NodeJs",
     "main": "dist/index.js",
     "scripts": {
-        "start": "tsc && node dist/index.js",
+        "start": "tsc && node dist/index.js --prod",
         "prod": "tsc && node dist/index.js --prod",
         "test": "jest"
     },
