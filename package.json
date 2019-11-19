@@ -7,8 +7,7 @@
         "build-ts": "tsc && npm run copypublic",
         "postinstall": "npm run build-ts",
         "start": "npm run serve",
-        "serve": "node dist/server/server.js",
-        "copypublic": "copyfiles -u 1 -a src/public/**/*.* dist",
+        "serve": "node dist/index.js",
         "test": "jest"
     },
     "author": "Claudio Torres",
